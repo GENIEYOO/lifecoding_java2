@@ -36,7 +36,7 @@ Object : 변수와 매소드를 그루핑한 것
 
 클래스 : 연관되어 있는 변수와 메소드의 집합
 
-인스턴스 : 클래스를 구체적인 제품으로 new해서 만드는 것 .구체적인 제품이 바로 class
+인스턴스 : 클래스를 구체적인 제품으로 new해서 만드는 것 .구체적인 제품이 바로 instance
 
 # 클래스 멤버와 인스턴스 멤버
 
@@ -168,14 +168,24 @@ https://docs.oracle.com/javase/9/docs/api/index.html?overview-summary.html
 여기서 패키지 조회가능
 
 * java.lang : 자바 프로그래밍을 위한 가장 기본적인 패키지와 클래스
-* java.utiil :  프로그램을 제어하기 위한 클래스와 데이터를 효율적으로 저장하기 위한 클래스
+* java.util :  프로그램을 제어하기 위한 클래스와 데이터를 효율적으로 저장하기 위한 클래스
 * java.io : 키보드, 모니터, 프린터, 파일 등을 제어할 수 있는 클래스
 * java.net: 통신을 위한 기능
 
 
+# 접근 제어자
 
+public/private(클래스 밖에는 접근할 수 없다.)
 
+사용이유 : 사용자가 접근하면 안되거나 접근 할 필요가 없는 멤버에 대한 접근을 규제할 수 있게 됨.
 
+* 클래스 멤버 접근제어자
+
+public > protected > default > private
+
+* 클래스 접근 제어자
+
+  public > default
 
 
 

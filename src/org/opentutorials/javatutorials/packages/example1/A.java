@@ -1,4 +1,4 @@
-package org.opentutorials.javatutorials.packages.exmaple1;
+package org.opentutorials.javatutorials.packages.example1;
 
 public class A {
 

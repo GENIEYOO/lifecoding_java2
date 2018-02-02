@@ -1,9 +1,9 @@
-package org.opentutorials.javatutorials.packages.exmaple1;
+package org.opentutorials.javatutorials.packages.example1;
 
 public class B {
 	public static void main(String[] args) {
 		A a = new A();
-		//°°Àº ÆÐÅ°Áö¶ó¼­ ·Îµå°¡´É
+		//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ï¿½ï¿½ ï¿½Îµå°¡ï¿½ï¿½
 	}
 
 }
