@@ -188,7 +188,11 @@ public > protected > default > private
   public > default
 
 
+# Abstract
 
+상속 강제 규제/본체가 없다
+
+동작하는 부분이 다른 방식을 상속을 강제해 사용자가 위임하게 만드려고 사용
 
 
 

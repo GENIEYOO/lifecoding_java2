@@ -2,7 +2,7 @@ package org.opentutorials.javatutorials.constructor;
 
 
 class Calculator2 {
-	//°°Àº ÆÐÅ°Áö ¾È¿¡ Å¬·¡½º¿¡  Calculator ÀÖÀ¸¹Ç·Î  Calculator2·Î
+	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½È¿ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  Calculator ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½  Calculator2ï¿½ï¿½
     int left, right;
  
     public void setOperands(int left, int right) {
@@ -22,9 +22,9 @@ class Calculator2 {
 class SubstractionableCalculator extends Calculator2 {
     
 	public void sum() {
-		System.out.println("½ÇÇà °á°ú´Â" + (this.left + this.right) + "ÀÔ´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½" + (this.left + this.right) + "ï¿½Ô´Ï´ï¿½.");
 	}
-	//¸Þ¼Òµå overriding
+	//ï¿½Þ¼Òµï¿½ overriding
 	
 	
 	public int avg() {
@@ -43,7 +43,7 @@ public class CalculatorDemo{
         SubstractionableCalculator c1 = new SubstractionableCalculator();
         c1.setOperands(10, 20);
         c1.sum();
-        System.out.println("½ÇÇà °á°ú´Â" + c1.avg());
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½" + c1.avg());
         c1.substract();
     }
  
